@@ -1,0 +1,17 @@
+// * Import
+@import "./variables";
+@import "./typography";
+@import "./base";
+
+// * Global styles
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
